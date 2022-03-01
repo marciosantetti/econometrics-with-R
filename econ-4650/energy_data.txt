@@ -1,0 +1,16 @@
+
+energy_data.txt
+
+
+Variable                                                 Description
+=======================================================================================================================
+t                                    Time, relative to the first month of the sample (1, 2, ...)
+month                                Month of the sample (e.g., 2015-12-01)
+generation_gwh                       Total monthly electricity generation (Gigawatt hours, GWh)
+emissions_so2                        Total monthly emissions of SO2 (in tons)
+emissions_nox                        Total monthly emissions of NOx (in tons)
+n_plants                             Number of unique electricity-generating units (EGUs) operating in the month
+n_retirements                        Number of retired electricity generating units in the month
+cumulative_retirements               Cumulative number of retirements (through the given month)
+i_cair                               Binary indicator for months during the Clean Air Interstate Rule (CAIR)
+i_csapr                              Binary indicator for months during the Cross-State Air Pollution Rule (CSAPR)

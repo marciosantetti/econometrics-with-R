@@ -1,0 +1,23 @@
+usmacro.def
+
+           u g inf
+
+	obs: 273 quarterly observations for 1948Q1 to 2016Q1
+
+
+ u	seasonally adjusted U.S unemployment rate as a percentage 
+ g	U.S. growth rate in GDP defined as g=100*(gdp(t)-gdp(t-1))/gdp(t-1)
+ inf	U.S. inflation rate defined as inf=100*(cpi(t)-cpi(t-1))/cpi(t-1) where cpi is the consumer price index
+
+Source: 
+	CPI, seasonally adjusted and taken from U.S. Bureau of Labor Statistics series ID CPIAUCSL 
+	U, seasonally adjusted and taken from U.S. Bureau of Labor Statistics series ID UNRATE
+	GDP, quarterly, seasonally adjusted annual rate, taken from U.S. Bureau of Economic Analysis series ID GDP
+
+
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+           u |       273    5.819414    1.639233        2.6       10.7
+           g |       273    1.574582    1.123075     -1.975      6.123
+         inf |       273    .8607179    .8134472      -2.29      4.066
